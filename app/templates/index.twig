@@ -1,0 +1,10 @@
+{% extends "frame.twig" %}
+{% block content %}
+  {% autoescape true %}
+  hello Twig!<br />
+  {{display_text}}<br />
+  id:{{id}}<br />
+  nickname:{{nickname}}<br />
+  created_at:{{created_at}}<br />
+  {% endautoescape %}
+{% endblock %}
